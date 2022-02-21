@@ -1,14 +1,12 @@
-# Next.js + Jest
+# Next.js で作成する管理画面作成チュートリアル
 
-This example shows how to configure Jest to work with Next.js.
+[Next.js で作成する管理画面作成チュートリアル](https://zenn.dev/thirosue/books/13ac92fc34ae22)  
+上記記事を参考に進めていく
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
+## セットアップ
 
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
+Next.js 公式のボイラープレート使用した  
+[Next.js - Jest ボイラープレート](https://github.com/vercel/next.js/tree/canary/examples/with-jest)
 
 ```bash
 npx create-next-app --example with-jest with-jest-app

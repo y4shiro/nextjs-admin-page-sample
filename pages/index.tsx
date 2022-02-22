@@ -1,7 +1,7 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import React from 'react';
+import { NextPage } from 'next';
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
       <main>
@@ -9,4 +9,6 @@ export default function Home() {
       </main>
     </>
   );
-}
+};
+
+export default Home;
